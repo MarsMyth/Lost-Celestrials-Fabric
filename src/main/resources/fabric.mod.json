@@ -5,7 +5,7 @@
 	"name": "Lost Celestrials",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Mars Myth"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.mars_myth.lostcelestrials.LostCelestrials"
+		],
+		"client": [
+			"net.mars_myth.lostcelestrials.LostCelestrialsClient"
 		],
 		"fabric-datagen": [
 			"net.mars_myth.lostcelestrials.LostCelestrialsDataGenerator"
